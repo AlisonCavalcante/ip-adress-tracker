@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { IpService } from 'src/services/ip.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private ipService: IpService) { }
 
   ngOnInit(): void {
   }
-
+  search(event: any){
+    this.ipService.get().subscribe(res => {console.log(res)});
+  }
 }

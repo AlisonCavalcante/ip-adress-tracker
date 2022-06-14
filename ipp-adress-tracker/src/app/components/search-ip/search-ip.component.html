@@ -1,1 +1,5 @@
-<p>search-ip works!</p>
+<div class="input-group mt-4">
+  <input type="text" [(ngModel)]="textSearch" class="form-control"
+   placeholder="Insira o endereço Ip"  aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <span (click)="search()" class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
+</div>
