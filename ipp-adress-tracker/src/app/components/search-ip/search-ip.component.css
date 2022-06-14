@@ -1,8 +1,10 @@
 .form-control{
   width: 350px;
+  border-radius: 15px;
 }
 .input-group-text{
   background-color: #4F4F4F;
   color: white;
   cursor: pointer;
+  border-radius: 15px;
 }
