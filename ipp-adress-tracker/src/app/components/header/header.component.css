@@ -1,0 +1,16 @@
+.navbar{
+  height: 30vh;
+  background-image: url('../../../assets/imgs/pattern-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-fluid{
+  justify-content: center;
+}
+
+.title{
+  color: white;
+  font-weight: bold;
+}
+
