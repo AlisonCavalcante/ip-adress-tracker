@@ -9,13 +9,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SearchIpComponent } from './components/search-ip/search-ip.component';
 import { HomeComponent } from './pages/home/home.component';
+import { InfoIpComponent } from './components/info-ip/info-ip.component';
+import { MapaComponent } from './components/mapa/mapa.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SearchIpComponent,
-    HomeComponent
+    HomeComponent,
+    InfoIpComponent,
+    MapaComponent
   ],
   imports: [
     BrowserModule,
